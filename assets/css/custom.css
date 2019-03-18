@@ -1,0 +1,136 @@
+header a img {
+  width: 20%;
+}
+
+.navbar {
+  background: transparent;
+}
+
+
+
+
+
+.form-section {
+  background: rgba(66, 103, 178, 0.6);
+  padding: 20px;
+  
+  margin-top: -80px;
+  border-radius: 30px;
+}
+
+input[type="text"],
+input[type="email"] {
+  background: transparent;
+}
+
+select {
+  background: transparent !important;
+  color: #000 !important;
+}
+
+::placeholder {
+  color: #d1d4d9 !important;
+}
+
+.form-control {
+  color: #d1d4d9 !important;
+}
+.form-section h1 {
+  color: #fff !important;
+  text-align: center;
+}
+
+.form-section input {
+  margin-bottom: 10px;
+}
+
+.form-section input[type="submit"] {
+  margin-top: 10px;
+  background-color: #93c13e;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.form-section input[type="submit"]:hover {
+  background: transparent;
+  color: #93c13e;
+  border: 2px solid #000000;
+  letter-spacing:0.1px;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #93c13e;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Dosis', sans-serif;
+    font-weight:bold;
+}
+
+    button:hover {
+        background: transparent;
+        color: #93c13e;
+        border: 2px solid #000000;
+    }
+
+.input-group {
+  position: relative;
+}
+
+.input-group::after {
+  content: "*";
+  position: absolute;
+  top: 3px;
+  left: 15px;
+  color: #f00;
+}
+
+.content {
+    background-color: #344;
+   
+    border-left: 5px solid #098aae;
+    
+   
+    font-weight:bold;
+}
+
+.content1 {
+    background-color: #344;
+    font-weight: 300;
+    border-radius:25px;
+    padding:5px 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  header a img {
+    width: 50%;
+  }
+
+  .heading-items {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align:center;
+  }
+
+  .form-section {
+    background: rgba(66, 103, 178, 0.6);
+  }
+
+  .header-app {
+   
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .form-section {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+    .content1 {
+        font-size:13px !important;
+        font-weight:bold;
+        
+    }
+}
